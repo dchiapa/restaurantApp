@@ -1,22 +1,22 @@
-# restaurantApp
+# RestaurantApp
 
-Proyecto para practicar habilidades, y trabajar en equipo integrando Back-end y Front-end.
+Project to practice skills, and teamwork integrating Back-end and Front-end.
 
-Equipo de desarrollo formado atraves de IDforIdeas.
+Development team formed through IDforIdeas.
 
-## Tecnologías:
+## Technologies:
 
-- Front-end:
+- Front end:
 
   - HTML 5.
   - CSS 3.
-  - JS vanilla.
+    -JS vanilla.
 
-- Back-end:
+- Back end:
 
-## Levantar los servidores:
+## Bring up the servers:
 
-## Colaboradores:
+## Collaborators:
 
 - [Matias Semelman](https://github.com/matiassemelman)
 - [Diego Chiapa](https://github.com/dchiapa)

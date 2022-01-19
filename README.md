@@ -20,4 +20,4 @@ Development team formed through IDforIdeas.
 
 - [Matias Semelman](https://github.com/matiassemelman)
 - [Diego Chiapa](https://github.com/dchiapa)
-- [Esteban Martin] (https://github.com/zcodelat)
+- [Esteban Martin](https://github.com/zcodelat)

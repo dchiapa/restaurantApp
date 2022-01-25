@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="../css/especificaciones.css" />
+  </head>
+<body>
+    <div class="img-pizza">
+        <img src="#" alt="imagen-pizza">
+    </div>
+    <div class="icons"></div>
+    <div class="description">
+        <h2>Nombre</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolores placeat ea architecto maiores, ab maxime quod eligendi velit fuga?</p>
+    </div>
+    <form action="http://foo.com" method="get">
+        <div class="extras">
+            <h2>Extras</h2>
+            <label for="faina">Faina</label>
+            <input type="number" id="faina" name="extras" min="1" max="8"><br>
+            <label for="bordes">Bordes de queso</label>
+            <input type="number" id="bordes" name="extras" min="1" max="8">
+        </div>
+        <div class="segundo-sabor">
+            <h2>¿Quieres hacerla de dos sabores?</h2>
+                <input type="radio" id="sabor1" name="segundo-sabor">
+                <label for="sabor1">Sabor 1</label>
+                <input type="radio" id="sabor2" name="segundo-sabor">
+                <label for="sabor2">Sabor 2</label>
+                <input type="radio" id="sabor3" name="segundo-sabor">
+                <label for="sabor3">Sabor 3</label><br>
+                <input type="radio" id="sabor4" name="segundo-sabor">
+                <label for="sabor4">Sabor 4</label>
+                <input type="radio" id="sabor5" name="segundo-sabor">
+                <label for="sabor5">Sabor 5</label>
+                <input type="radio" id="sabor6" name="segundo-sabor">
+                <label for="sabor6">Sabor 6</label><br>
+        </div>
+        <div class="aclaraciones">
+            <h2>Aclaraciones</h2>
+            <input type="text" id="aclaraciones" name="aclaraciones"><br>
+        </div>
+        <input type="submit" value="Agregar">
+    </form>
+</body>
+<script src="../js/especificaciones.js"></script>
+</html>

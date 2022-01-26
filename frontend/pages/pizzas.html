@@ -4,71 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurante</title>
+    <title>Bruno Restaurante</title>
     <link rel="stylesheet" href="../css/pizzas.css" />
   </head>
   <body>
-    <header>
-      <h1>Restaurante</h1>
-      <div class="#"></div> <!--description y schedule van dentro de class=#¿?-->
-      <small>Description</small>
-      <small>Schedule</small>
+    <header id="header" class="header"> <!--id y class genéricos, subrimir o cambiar si corresponde-->
+      <div class="tiempo-apertura">
+        <p>Entrega estimada en 30 minutos</p> <!--Ver si corresponder tag <p> o cambiar por el que corresponda-->
+        <p>Local abierto</p>  <!--Ver si corresponder tag <p> o cambiar por el que corresponda-->
+      </div>
+      <nav id="navbar" class="navbar">
+        <img src="../assets/img/logo_yellow.svg" alt="logo" class="nav-logo">
+        <ul>
+          <li><a href="#">Pizzas</a></li>
+          <li><a href="#">Entradas</a></li>
+          <li><a href="#">Postres</a></li>
+          <li><a href="#">Bebidas</a></li>
+        </ul>
+        <img src="../assets/icon/whatsapp_yellow.svg" alt="whatsapp">
+        <img src="../assets/icon/pizzacount_yellow.svg" alt="pizzacounter">
+      </nav>
     </header>
     <main>
-      <div class="delay">
-        <small>Delay</small>
-        <small>Open or Closed</small>
-
-        <div class="menus-container"> <!--#delay y #menus-container irian como elemento <nav> dentro de header-->
-          <div class="menus">Pizzas</div>
-          <div class="menus">Main Entrance</div>
-          <div class="menus">Desserts</div>
-          <div class="menus">Beverage</div>
-
-          <div class="pizza">
-            <div class="top">
-              <div class="top-left">
-                <h3>Pizza name</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, aut!</p>
-              <strong>BIG$ / MED$</strong>
-              </div> 
-              <div class="top-right"><img src="#" alt="pizzaPhoto"></div>
-            </div>
-            <div class="bottom">
-              <div>Grande 8px</div>
-              <div>Mediana 6px</div>
-            </div>
-          </div>
-
-          <div class="pizza">
-            <div class="top">
-              <div class="top-left">
-                <h3>Pizza name</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, aut!</p>
-              <strong>BIG$ / MED$</strong>
-              </div>
-              <div class="top-right"><img src="#" alt="pizzaPhoto"></div>
-            </div>
-            <div class="bottom">
-              <div>Grande 8px</div>
-              <div>Mediana 6px</div>
-            </div>
-          </div>
-          <div class="pizza">
-            <div class="top">
-              <div class="top-left">
-                <h3>Pizza name</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, aut!</p>
-              <strong>BIG$ / MED$</strong>
-              </div>
-              <div class="top-right"><img src="#" alt="pizzaPhoto"></div>
-            </div>
-            <div class="bottom">
-              <div>Grande 8px</div>
-              <div>Mediana 6px</div>
-            </div>
-          </div>
-        </div>
+      <div class="row"> <!--clase row para flexbox: ver-->
+      <article class="pizza1">
+        <img src="../assets/img/pizza_1.png" alt="pizza-img">
+        <img src="../assets/icon/star_yellow.svg" alt="star">
+        <img src="../assets/icon/flame_grey.svg" alt="flame">
+        <img src="../assets/icon/planta_grey.svg" alt="planta">
+        <h2>Nombre</h2>
+        <h3>GDE$/MED$</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga distinctio fugit enim, adipisci sequi similique.</p>
+        <button><a href="#">Grande</a></button>
+        <button><a href="#">Mediana</a></button>
+      </article>
+      <article class="pizza2">
+        <img src="../assets/img/pizza_1.png" alt="pizza-img">
+        <img src="../assets/icon/star_yellow.svg" alt="star">
+        <img src="../assets/icon/flame_grey.svg" alt="flame">
+        <img src="../assets/icon/planta_grey.svg" alt="planta">
+        <h2>Nombre</h2>
+        <h3>GDE$/MED$</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga distinctio fugit enim, adipisci sequi similique.</p>
+        <button><a href="#">Grande</a></button>
+        <button><a href="#">Mediana</a></button>
+      </article>
+      </div>
     </main>
     <footer></footer>
     <script src="../js/pizzas.js"></script>

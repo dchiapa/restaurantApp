@@ -5,49 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bruno Restaurante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/pizzas.css" />
   </head>
   <body>
     <header id="header" class="header"> <!--id y class genéricos, subrimir o cambiar si corresponde-->
-      <div class="tiempo-apertura">
+      <div class="header-top">
         <p>Entrega estimada en 30 minutos</p> <!--Ver si corresponder tag <p> o cambiar por el que corresponda-->
         <p>Local abierto</p>  <!--Ver si corresponder tag <p> o cambiar por el que corresponda-->
       </div>
       <nav id="navbar" class="navbar">
         <img src="../assets/img/logo_yellow.svg" alt="logo" class="nav-logo">
-        <ul>
+        <ul class="menu">
           <li><a href="#">Pizzas</a></li>
           <li><a href="#">Entradas</a></li>
           <li><a href="#">Postres</a></li>
           <li><a href="#">Bebidas</a></li>
         </ul>
-        <img src="../assets/icon/whatsapp_yellow.svg" alt="whatsapp">
-        <img src="../assets/icon/pizzacount_yellow.svg" alt="pizzacounter">
+        <div class="header-icons">
+          <img src="../assets/icon/whatsapp_yellow.svg" alt="whatsapp">
+          <img src="../assets/icon/pizzacount_yellow.svg" alt="pizzacounter">
+        </div>
       </nav>
     </header>
     <main>
       <div class="row"> <!--clase row para flexbox: ver-->
-      <article class="pizza1">
-        <img src="../assets/img/pizza_1.png" alt="pizza-img">
-        <img src="../assets/icon/star_yellow.svg" alt="star">
-        <img src="../assets/icon/flame_grey.svg" alt="flame">
-        <img src="../assets/icon/planta_grey.svg" alt="planta">
-        <h2>Nombre</h2>
+      <article class="card-product">
+        <img src="../assets/img/pizza_1.png" class="product-img" alt="pizza-img">
+        <div class="status-icons">
+          <img src="../assets/icon/star_yellow.svg" class="status-icon" alt="star">
+          <img src="../assets/icon/flame_grey.svg" class="status-icon" alt="flame">
+          <img src="../assets/icon/planta_grey.svg" class="status-icon" alt="planta">
+        </div>
+        <h2>NOMBRE</h2>
         <h3>GDE$/MED$</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga distinctio fugit enim, adipisci sequi similique.</p>
-        <button><a href="#">Grande</a></button>
-        <button><a href="#">Mediana</a></button>
-      </article>
-      <article class="pizza2">
-        <img src="../assets/img/pizza_1.png" alt="pizza-img">
-        <img src="../assets/icon/star_yellow.svg" alt="star">
-        <img src="../assets/icon/flame_grey.svg" alt="flame">
-        <img src="../assets/icon/planta_grey.svg" alt="planta">
-        <h2>Nombre</h2>
-        <h3>GDE$/MED$</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga distinctio fugit enim, adipisci sequi similique.</p>
-        <button><a href="#">Grande</a></button>
-        <button><a href="#">Mediana</a></button>
+        <button class="card-button"><a href="#">Grande</a></button>
+        <button class="card-button"><a href="#">Mediana</a></button>
       </article>
       </div>
     </main>

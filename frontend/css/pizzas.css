@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;500&family=Roboto&display=swap');
+
+.header-top {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background: #E2D105;
+    font-family: roboto;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.header-top p {
+    margin: 0;
+    color: white;
+}
+.navbar {
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 10px 0 10px 0;
+}
+.menu {
+    display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+.menu li {
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+.header-icons {
+    position:relative;
+    float:right;
+}
+.card-product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    font-family: roboto;
+    margin-bottom: 20px;
+}
+.card-product h2 {
+    color:#75D4FD;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.card-product h3 {
+    color:#75D4FD;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.product-img {
+    width: 100%;
+}
+.card-product .status-icons {
+    position: relative;
+    float: right;
+}
+.card-product .status-icon {
+    padding: 4px;
+}
+.card-button {
+    box-shadow: 0 3px 2px 1px rgb(0 0 0 / 30%);
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width:46%;
+    font-size: 18px;
+    margin: 5px;
+}
+.card-button a {
+    text-decoration: none;
+    color:#E2D105;
+}
